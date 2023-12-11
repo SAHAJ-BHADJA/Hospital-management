@@ -1,0 +1,12 @@
+npm i react-scripts
+npm i axios
+npm i route
+npm i routes
+npm i react-hot-toast
+npm i react-router-dom 
+npm i web-vitals
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm i @mui/styles --force
+npm install @mui/x-date-pickers
+npm install dayjs
