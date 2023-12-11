@@ -1,0 +1,123 @@
+*::-webkit-scrollbar {
+    display: none;
+  }
+.searchBoxContainer{
+        /* text-align: center; */
+        height: 20vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 5vw;
+        border: 2px solid black;
+        border-radius: 15px;
+}
+.searchBoxContainer h4{
+    text-align: center;
+    font-size: 3vh;
+}
+.searchBox{
+    text-align: center;
+}
+#searchbar{
+    font-size: 2vh;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    margin-right: 2vw;
+    text-align: center;
+}
+.patientAppointmentSearchButton{
+    font-size: 2vh;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.patientDetailThroughSearch{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 5vw;
+    margin-bottom: 3vh;
+}
+.patientDetailThroughSearch button{
+    background-color: white;
+    border: 2px solid black;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+.titleAndButton{    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    padding: 2vh 4vw;
+}
+.titleAndButton h2{
+    display: inline-block;
+}
+.patientDataRow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 4vw;
+    row-gap: 2vh;
+    margin-bottom: 2vh;
+}
+.key{
+    display: inline-block;
+    width: 50%;
+}
+.appointmentDataRow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2vh 2vw;
+}
+.patientAppointmentListContainer{
+    margin: 0 3vw;
+}
+/* .rowHeading{
+    font-weight: 600;
+} */
+button{
+    cursor: pointer;
+    border-radius: 10px;
+}
+.current{
+    text-decoration: underline;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+}
+
+.symbol {
+	background-color: rgb(29, 34, 39);
+	border: solid 3px wheat;
+	border-radius: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	width: 20%;
+	height: auto;
+
+}
+
+.title {
+	text-align: center;
+	color: #f2f2f2;
+	font-size: xxx-large;
+}
+
+.logoutbtn {
+	background-color: white;
+	outline: darkgrey;
+	border-radius: 5px;
+	height: 5vh;
+	width: 10vw;
+	margin: 2vh 6vw;
+	font-weight: 900;
+	font-size: medium;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	cursor: pointer;
+}

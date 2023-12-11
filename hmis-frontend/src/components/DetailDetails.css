@@ -1,0 +1,36 @@
+.logs-container{
+    padding: 2vh 5vw;
+}
+.requestData{
+    padding: 2vh 2vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    /* border-top:none ; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2vh;
+}
+.request-title{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+}
+.goBackLink{
+    text-align: center;
+}
+.content-detail{
+    margin: 5vh 0;
+}
+.container h2{
+    border: 2px solid black;
+    padding:2vh 2vw;
+    border-radius: 15px;
+}
+.elements{
+    text-align:left ;
+}
+.key{
+    font-weight: 500;
+    display: inline-block;
+    width: 40%;
+}

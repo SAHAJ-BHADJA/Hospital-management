@@ -1,0 +1,26 @@
+.card:hover {
+    cursor: pointer;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.card2 {
+    font-weight: bold;
+}
+
+.moreInfo {
+    float: right;
+    color: blue;
+    text-decoration: underline;
+}
+
+.goBack {
+    font-weight: bold;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}

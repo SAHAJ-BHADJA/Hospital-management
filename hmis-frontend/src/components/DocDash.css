@@ -1,0 +1,150 @@
+nav {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+}
+
+.symbol {
+	background-color: rgb(29, 34, 39);
+	border: solid 3px wheat;
+	border-radius: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	width: 20%;
+	height: auto;
+
+}
+
+.title {
+	text-align: center;
+	color: #f2f2f2;
+	font-size: xxx-large;
+}
+
+.logoutbtn {
+	background-color: white;
+	outline: darkgrey;
+	border-radius: 5px;
+	height: 5vh;
+	width: 10vw;
+	margin: 2vh 6vw;
+	font-weight: 900;
+	font-size: medium;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	cursor: pointer;
+
+}
+
+.item {
+	text-align: center;
+}
+
+/* .container {
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 55vh;
+	text-align: center;
+	font-size: x-large;
+	font-weight: 400;
+} */
+
+.inputfield {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 5px;
+	margin: 20 px;
+}
+
+input {
+	font-size: large;
+}
+
+.fields {
+	margin: 10px;
+}
+
+.consentbtn{
+	margin: 40px;
+}
+
+table {
+	margin-top: 10px;
+	border-collapse: collapse;
+	width: 700px;
+}
+
+td {
+	padding: 8px;
+	border: 1px solid black;
+	font-size: medium;
+}
+
+.theadings{
+	font-weight: bold;
+}
+
+.tabs {
+	height: 70vh;
+	width: 33vw;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #c9c9c9;
+}
+
+.tab button {
+	display: block;
+	font-size: x-large;
+	border: solid 2px black;
+	border-radius: 7px;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	margin: 10px;
+	margin-bottom: 30px;
+}
+
+.tabcontent {
+	margin: 30px;
+	display: none;
+	padding: 6px 12px;
+}
+
+.uploadbtn {
+	font-size: large;
+}
+
+.textarea {
+	width: 350px;
+	height: 100px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #867f7f;
+}
+
+button {
+	margin:10px;
+	font-size: large;
+	border-radius: 7px;
+	border-color: #867f7f;
+	background-color: #c9c9c9;
+	padding: 5px;
+}
